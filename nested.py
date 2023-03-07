@@ -7,3 +7,4 @@ for row in range(0, rows, 1):
         print(";P", end="")
     print()
 print("\nDone!")
+print()
