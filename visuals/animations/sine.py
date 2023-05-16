@@ -12,7 +12,7 @@ def animate(f):
     ax.plot(x,y)
 
 def run():
-    margaret = a.FuncAnimation(fig, animate, frames = 720,interval = 10)
+    margaret = a.FuncAnimation(fig, animate, frames = 720,interval = 100)
     plt.show()
 
 run()
